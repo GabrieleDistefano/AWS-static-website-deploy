@@ -18,7 +18,7 @@ jobs:
         with:
           args: --delete
         env:
-          AWS_S3_BUCKET: static-website-gabriele
-          AWS_REGION: eu-central-1
+          AWS_S3_BUCKET: fust.distefano.angelogabriele-bucket 
+          AWS_REGION: eu-west-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
